@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="src/img/code-solid.svg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/22671ea8c3.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="loading" style="display: none;">
+        <div class="an">Loading</div>
+        <video src="./src/video/Blurred Video of Scripts Being Typed.mp4" autoplay loop></video>
+    </div>
+    
+    <div id="page_A" class="pg">
+       <div id="dev_logo" class="border_ani left_page_A onL"></div>
+       <div id="apr" class="left_page_A onL">
+            <h1>José Miguel </h1><br>
+            <h3>Developer, WebDesing</h3>
+        </div>
+
+        <button onclick="next(0)" class="border_ani btnA right_page_A onR">
+            Próximo
+        </button>
+
+    </div>
+
+    <div id="page_B" class="pg Z" style="display: none;">
+
+        <h1 class="left_page_B">Quem eu sou?</h1>
+        <h3 class="right_page_B">
+            i tempora mollitia vel beatae quidem aut blanditiis ducimus aut sunt veniam. Ut veniam voluptas id itaque dolores ut dolorem autem qui sequi impedit ex sunt repellendus. 33 reprehenderit quidem 33 ipsa veniam et praesentium debitis est ullam voluptas eum eaque illo ut iste odio. Aut autem ipsa ad dolore facilis quo illo sequi est laudantium quos in corrupti molestiae in internos asperiores.
+        </h3>
+
+        <div class="contDiv">
+            <i class="fa-brands fa-js js left_page_B ic" onmouseenter="bk(0)"></i>
+            <i class="fa-brands fa-html5 html right_page_B ic" onmouseenter="bk(1)"></i>
+            <i class="fa-brands fa-css3-alt css left_page_B ic" onmouseenter="bk(2)"></i>
+            <i class="fa-brands fa-node node right_page_B ic" onmouseenter="bk(3)"></i>
+            <i class="fa-brands fa-python python left_page_B ic" onmouseenter="bk(4)" ></i>
+        </div>
+
+        <button onclick="next(1)" class="border_ani btnA right_page_B onR" style="left: 70%;">
+            Próximo
+        </button>
+
+        <button onclick="back(1)" class="border_ani btnA left_page_B" style="left: 45%;">
+            back
+        </button>
+    </div>
+
+    <div id="page_C" class="pg" style="display: none;">
+
+        <video src="./src/video/396b17da-9bc8a40b.mp4" autoplay loop></video>
+        <h1>Meus Projetos</h1>
+
+        <div class="pj border_ani">
+            <img src="" alt="Vazio">
+            <p>Vazio</p>
+        </div>
+
+        <div class="pj border_ani">
+            <img src="" alt="Vazio">
+            <p>Vazio</p>
+        </div>
+
+        <div class="pj border_ani">
+            <img src="" alt="Vazio">
+            <p>Vazio</p>
+        </div>
+        
+        <button onclick="back(2)" class="border_ani btnA left_page_C" >
+            back
+        </button>
+    </div>
+    
+    <script src="main.js"></script>
+    <script src="pages.js"></script>
+    <script src="backg.js"></script>
+</body>
+</html>
