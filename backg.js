@@ -15,5 +15,3 @@ function copiarTexto(i) {
     document.execCommand("copy");
     copy[i].select()
 }
-
-next(2)
