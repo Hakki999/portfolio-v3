@@ -15,3 +15,4 @@ function copiarTexto(i) {
     document.execCommand("copy");
     copy[i].select()
 }
+//odisofidosifodsfs
