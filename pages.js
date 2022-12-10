@@ -1,5 +1,6 @@
 const pages  = ['page_A', 'page_B', 'page_C'];
 const page = document.getElementsByClassName("pg");
+const vd = document.getElementById("vd");
 var x = false;
 
 function busk(i){
@@ -11,6 +12,9 @@ function busk(i){
 
 function next(i){
     if(x == false){
+        if(i == 1){
+            vd.play()
+        }
         x = true;
         setTimeout(()=>{
             page[i].style= "display: none;";
@@ -43,6 +47,9 @@ function next(i){
 }
 
 function back(i){
+    if(i == 2){
+        vd.play()
+    }
     if(x == false){
         x = true;
         setTimeout(()=>{
