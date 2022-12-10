@@ -103,6 +103,19 @@ button{
     justify-content: space-around;
 }
 
+#page_D{
+    width: 100vw;
+    height: 100vh;
+    background-color: #cfcbc8;
+    background-image: url(./src/img/bk_D.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+
+    position: fixed; 
+    color: black;
+}
+
 
 
 #dev_logo{
@@ -440,4 +453,58 @@ button{
     position: absolute;
 
     z-index: 0;
+}
+#page_D .border_ani:hover{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+#page_D .border_ani::after{
+    border: 1px solid black;
+}
+#page_D .border_ani::before{
+    border: 1px solid black;
+}
+
+#page_D h1{
+    margin: 5% 15%;
+    font-size: 3rem;
+}
+
+.contDvC{
+    width: 50%;
+    height: 55%;
+
+    position: absolute;
+    right: 1%;
+    top: 5%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.con{
+    width: 27rem;
+    height: 10%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.3rem;
+    padding: 0% 2%;
+
+    text-overflow: clip;
+    text-overflow: "OI" clip;
+}
+
+.con input{
+    width: auto;
+    background-color: transparent;
+    border: 0;
+    font-size: 1.3rem;
+    outline: none;
+    margin-left: 3%;
+
+    
+    cursor: pointer;
 }

@@ -1,4 +1,4 @@
-const pages  = ['page_A', 'page_B', 'page_C'];
+const pages  = ['page_A', 'page_B', 'page_C', 'page_D'];
 const page = document.getElementsByClassName("pg");
 const vd = document.getElementById("vd");
 var x = false;

@@ -7,4 +7,13 @@ function bk(i){
     pagee.classList.add(p[i]);
 }   
 
-next(1)
+const copy = document.getElementsByClassName("copy");
+
+function copiarTexto(i) {
+    copy[i].select();
+    copy[i].setSelectionRange(0, 99999)
+    document.execCommand("copy");
+    copy[i].select()
+}
+
+next(2)
