@@ -10,6 +10,8 @@ function busk(i){
     return [l, r];
 }
 
+let u = 3;
+
 function next(i){
     if(x == false){
         if(i == 1){
@@ -20,6 +22,7 @@ function next(i){
             page[i].style= "display: none;";
              x = false;
         }, 2100)
+        
     
         page[i+1].style= "z-index: 3; animation-name: openPage; animation-duration: 2s;";
 
@@ -84,5 +87,3 @@ function back(i){
     }
     
 }
-
-next(2)
