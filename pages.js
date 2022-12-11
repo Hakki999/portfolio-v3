@@ -51,6 +51,7 @@ function back(i){
         vd.play()
     }
     if(x == false){
+        console.log("OK");
         x = true;
         setTimeout(()=>{
             x= false;
@@ -83,3 +84,5 @@ function back(i){
     }
     
 }
+
+next(2)
